@@ -1,0 +1,139 @@
+/******************************************************
+* MAIN.SCSS
+*	Main site element styles go in this file.
+*	Iclude styles for primary elements that are
+*	used site wide (a, h1, p, body, etc).
+\******************************************************/
+
+body {
+  
+  background: #f2e6c0;
+  color: #666666;
+  font-size: 12px;
+  padding: 20px 0 30px;
+}
+p {
+  margin-bottom: 10px;
+  color: inherit;
+  font-size: 14px;
+}
+p.headline {
+  margin-top: -15px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #333333;
+  font-family: "Noticia Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-top: 10px;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: inherit;
+}
+h1{font-size: 24px;}
+h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+a,
+a:visited,
+a:focus {
+  color: #c09500;
+}
+a:hover {
+  color: #c09500;
+  text-decoration: underline;
+}
+a img {
+  border: none;
+}
+ul.no_bullets li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+ul.no_bullets li i {
+  margin-right: 3px;
+}
+ul#supersized {
+  margin: 0;
+}
+ul li {
+  font-size: 12px;
+}
+iframe {
+  border: none;
+}
+hr {
+  background: none;
+  border: none;
+  border-bottom: 1px dashed #ececec;
+  height: 1px;
+  margin: 30px 0 40px;
+}
+hr.subtle {
+  border-bottom: 1px solid #ececec;
+  margin: 20px 0 30px;
+}
+hr.simple {
+  margin: 0 -40px 50px;
+  border-bottom: 1px solid #ededed;
+}
+@media only screen and (max-width: 1009px) {
+  hr.simple {
+    margin: 0 -30px 50px;
+  }
+}
+hr.separator {
+  border: none;
+  height: 3px;
+  background: url('../img/separator.png') repeat-x;
+  margin: 0 0 40px;
+}
+hr.no_top {
+  margin-top: 0;
+}
+.space {
+  height: 30px;
+}
+section {
+  margin-bottom: 40px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border: 1px solid #d0d0d0;
+  background: #f7f7f7;
+}
+form input[type="submit"] {
+  margin-top: 10px;
+}
+form label {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+form p {
+  display: inline-block;
+  margin-left: 20px;
+}

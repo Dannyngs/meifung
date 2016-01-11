@@ -49,7 +49,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline; }
+	vertical-align: baseline;
+    
+}
+
+    
+    
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block; 
 }
@@ -147,7 +153,7 @@ body, .form-elements input, .form-elements textarea, .form-elements select, .qou
 }
 
 .navigation ul li, .latest-blog .item p, footer, p, .services.style-1 .item h3, .progress-bar h5, .button, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li, .alert p, .pagination, .qoute, .welcome, .progress-bar .meter, .testimonial-item .author span, .testimonial-item .author a, .team .item h4, .services.style-2 .item h4, .services.style-3 .item h4, .page-404 .oops, .tables-column .header h3, .tables-column .header .price, .tables-column .footer h4, .square-list li, .check-list li, .plus-list li, .arrow-list li, .cross-list li, .star-list li, .minus-list li, .heart-list li, .circle-list li, .asterisk-list li, .widget .followers h4, .sidebar .widget, .blog-3 .item a.title, .form-box label, .address-info li, .phone-info li, .email-info li, body.under-construction .content h2.title, body.under-construction .content .block .label, .slider-1 .slides li h2  {
-	 font-family:'RobotoMedium', Arial, sans-serif;
+	 font-family:"Myriad Pro","微軟正黑體";
 }
 
 h3.title, .subscribe input.submit, .about-author .content .data h5, .comments .comment-box h5, body.under-construction .content .block .flip-top, body.under-construction .content input.subscribe-button, .one-page h2.title, .one-page h1.title {

@@ -6,7 +6,7 @@
         
         <div class="eight columns">
          <span class="copyright">
-         Copyright <?php echo $system['copyright'];?> <a href="index.html">Creation Media</a>. All Rights Reserved. 
+         Design by <a target="blank" href="http://www.c-m.hk">Creation Media</a>.
         </span>
         </div><!-- End copyright -->
         

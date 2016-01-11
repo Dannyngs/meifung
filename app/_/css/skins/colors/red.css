@@ -44,7 +44,7 @@ p a, a:hover, .latest-blog .item h3 a:hover, .tweet_list li i.icon-twitter, .twe
 /* borders
 ================================================== */
 .navigation ul li a:hover, .navigation ul li a.selected, .navigation ul li.active a{
-	border-top:4px solid #e7402f;
+	border-top:4px solid #492c12;
 }
 
 #horizontal-tabs ul.tabs li.current {

@@ -58,11 +58,19 @@
        <div class="container clearfix">
         <div class="slidedown">
         
-         <div class="sixteen columns">
+         <div class="fourteen columns">
            <div class="phone-mail">
              <a><i class="icon-phone"></i> Phone : <?php echo $system['phone'];?></a>
              <a href="mailto:info@meifung.hk"><i class="icon-envelope-alt"></i> Mail : <?php echo $system['email'];?></a>
-                 <a  style="margin-left:500px" href="index.php?lang=chi">中文</a><a   href="index.php?lang=eng">English </a>
+               
+           </div><!-- End phone-mail -->
+            
+         </div>
+            
+            <div class="two columns">
+           <div class="phone-mail" style="padding-top:8px;">
+            
+                 <a  href="index.php?lang=chi">中文</a><a   href="index.php?lang=eng">English </a>
            </div><!-- End phone-mail -->
             
          </div>

@@ -10,14 +10,20 @@ $rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']);
 $rs = $db->query("SELECT * FROM T_Category where id=".$_GET['id']);
     $category = $rs->fetch();
 
+
+$ranPic = rand(1, 3);
 ?>
 <?php require_once 'header.php' ?>
 
 <div class="page-title">
      <div class="container clearfix">
        
-       <div class="sixteen columns"> 
+       <div class="twelve columns"> 
          <h1><?php echo $category[$current_lang.'_category'];?></h1>
+       </div>
+         
+          <div class="four columns" style="text-align:right"> 
+          <img src="_/images/tit<?php echo $ranPic;?>.png"/>
        </div>
        
      </div><!-- End Container -->
@@ -35,7 +41,10 @@ $rs = $db->query("SELECT * FROM T_Category where id=".$_GET['id']);
 	<div class="one-third column item  Web" data-categories="Web">
        <div class="contain"> 
         <div class="image-post"> 
-        <img width="800" height="600" src="<?php echo $imgurl.$pro['image'];?>">
+            <a class="fancybox" href="<?php echo $imgurl.$pro['image'];?>" data-fancybox-group="gallery-3" 
+        title="<?php echo $pro[$current_lang.'_product'];?>">
+              <img width="800" height="600" src="<?php echo $imgurl.$pro['image'];?>">
+            </a>
         </div><!-- End slider image-post -->
         
         <div class="data">

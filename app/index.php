@@ -19,34 +19,28 @@ require_once 'init.php';
      <div class="flex-container">
        <div class="flexslider loading">
         <ul class="slides">
-          <li style="background:url(/_/images/banner11.jpg) no-repeat;background-position:50% 0">
+          <li style="background:url(/_/images/banner11.jpg) no-repeat;background-position:50% 0;background-size:cover">
           
            <div class="container">
            <div class="sixteen columns contain">
-            
-            
-             
-           
+          
            </div>
          </div><!-- End Container -->
           
           </li><!-- End item -->
           
-          <li style="background:url(/_/images/banner22.jpg) no-repeat;background-position:50% 0">
+          <li style="background:url(/_/images/banner22.jpg) no-repeat;background-position:50% 0;background-size:cover">
           
            <div class="container">
            <div class="sixteen columns contain">
-            
-            
-             
-           
+         
            </div>
          </div><!-- End Container -->
           
           </li><!-- End item -->
            
          
-          <li style="background:url(/_/images/banner33.jpg) no-repeat;background-position:50% 0">
+          <li style="background:url(/_/images/banner33.jpg) no-repeat;background-position:50% 0;background-size:cover">
           
            <div class="container">
            <div class="sixteen columns contain">
@@ -78,7 +72,7 @@ require_once 'init.php';
  
  
    
-     <div class="" style="padding:0px 50px 50px;">
+     <div class="bottom-3 top-3">
        <h3 class="title bottom-2" ><?php echo $system[$current_lang.'_home_tit'];?></h3> 
        <p >
 	   <?php echo $system[$current_lang.'_home_content'];?>
@@ -109,15 +103,6 @@ require_once 'init.php';
 }
  ?>
 
-     <!--  <div class="visual_identity illustrations one_third">
-        <a href="case.php?id=<?php echo  $case['id'];?>" class="">
-          <img width="200px" src="<?php echo  $imgurl.$case['image'];?>" alt="" />
-        </a>
-        <h3><a href="case.php?id=<?php echo  $case['id'];?>"><?php echo  $case[$current_lang.'_title'];?></a></h3>
-        <p><?php echo  $case[$current_lang.'_desc'];?></p>
-      </div> -->
-       
-      
     
       
     </div><!-- End contain-->

@@ -74,11 +74,11 @@ require_once 'init.php';
    
    
    <!-- Start main content -->
- <div class="container main-content clearfix">
+ <div class="container main-content clearfix" >
  
  
    
-     <div class="bottom-3 top-3">
+     <div class="" style="padding:0px 50px 50px;">
        <h3 class="title bottom-2" ><?php echo $system[$current_lang.'_home_tit'];?></h3> 
        <p >
 	   <?php echo $system[$current_lang.'_home_content'];?>
@@ -88,7 +88,7 @@ require_once 'init.php';
  <div class="sixteen columns"><hr class="line bottom-3"></div>
      <div class="gallery bottom-3 top-1">
         
-         <h3 class="title bottom-2">Our work</h3> 
+         <h3 class="title bottom-2">Our Works</h3> 
    
     <div id="contain"> 
       

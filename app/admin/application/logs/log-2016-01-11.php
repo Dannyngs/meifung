@@ -77,3 +77,14 @@ ERROR - 2016-01-11 06:20:03 --> Severity: Notice  --> Only variable references s
 ERROR - 2016-01-11 06:20:17 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
 ERROR - 2016-01-11 06:20:19 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
 ERROR - 2016-01-11 06:20:22 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:19:33 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:19:34 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:32 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:32 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:41 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:41 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:46 --> Severity: Notice  --> Only variable references should be returned by reference E:\meifung\app\admin\system\core\Common.php 257
+ERROR - 2016-01-11 07:23:47 --> Severity: Notice  --> Only variables should be passed by reference E:\meifung\app\admin\system\database\DB_driver.php 1017
+ERROR - 2016-01-11 07:23:47 --> Severity: Notice  --> Only variables should be passed by reference E:\meifung\app\admin\system\database\DB_driver.php 1017
+ERROR - 2016-01-11 07:23:47 --> Severity: Notice  --> Only variables should be passed by reference E:\meifung\app\admin\system\database\DB_driver.php 1017
+ERROR - 2016-01-11 07:23:47 --> Severity: Notice  --> Only variables should be passed by reference E:\meifung\app\admin\system\database\DB_driver.php 1017

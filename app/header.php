@@ -58,14 +58,16 @@
        <div class="container clearfix">
         <div class="slidedown">
         
-         <div class="eight columns">
+         <div class="sixteen columns">
            <div class="phone-mail">
              <a><i class="icon-phone"></i> Phone : <?php echo $system['phone'];?></a>
              <a href="info@website.com"><i class="icon-envelope-alt"></i> Mail : <?php echo $system['email'];?></a>
+                 <a  style="margin-left:500px" href="index.php?lang=chi">中文</a><a   href="index.php?lang=eng">English </a>
            </div><!-- End phone-mail -->
+            
          </div>
         
-          
+        
          </div><!-- End slidedown -->
        </div><!-- End Container -->
        
@@ -76,7 +78,7 @@
          <a href="index.php" class="down-button"><i class="icon-angle-down"></i></a><!-- this appear on small devices -->
          <div class="one-third column">
           <div class="logo">
-          <a href="index.html">
+          <a href="index.php">
             <img src="/_/images/logo.png"  />
           </a>
           </div>

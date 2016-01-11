@@ -90,7 +90,7 @@ require_once 'init.php';
 {?>     
 	 <div class="one-third column item element-3">
 	     
-        <a class="fancybox" href="<?php echo $pro['image'];?>" data-fancybox-group="gallery-3" 
+        <a class="fancybox" href="<?php echo $imgurl.$pro['image'];?>" data-fancybox-group="gallery-3" 
         title="<?php echo $pro[$current_lang.'_product'];?>">
          <img width="300" height="225" src="<?php echo $imgurl.$pro['image'];?>" >
           <div class="img-caption">

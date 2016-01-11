@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"illness manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image","cat_id"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image","cat_id"],"actived":["id","chi_title","eng_title","image","cat_id"],"atrr":{"id":{"alias":"id"}}},"ids":["chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image","cat_id"]}

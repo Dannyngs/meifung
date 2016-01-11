@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"pricing_methods manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_pricing","eng_pricing","chi_methods","eng_methods"],"atrr":{"chi_methods":{"alias":"chi_treatment"},"eng_methods":{"alias":"eng_treatment"},"id":{"alias":"id"}}},"column":{"list":["chi_pricing","eng_pricing","chi_methods","eng_methods","id"],"atrr":{"chi_methods":{"alias":"chi_treatment"},"eng_methods":{"alias":"eng_treatment"},"chi_pricing":{"alias":"chi_pricing"}},"actived":["id"]},"ids":["chi_pricing","eng_pricing","chi_methods","eng_methods"]}

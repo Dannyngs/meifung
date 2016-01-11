@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"column manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image"],"actived":["id","chi_title","eng_title","image"],"atrr":{"id":{"alias":"id"}}},"ids":["chi_title","eng_title","chi_desc","eng_desc","chi_content","eng_content","image"]}

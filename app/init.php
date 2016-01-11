@@ -37,7 +37,8 @@ $current_lang = $_SESSION['lang'];
 }
 else
 {
-$current_lang = 'chi';
+    //# set default lang
+$current_lang = 'eng';
 }
  
 switch ($current_lang) {

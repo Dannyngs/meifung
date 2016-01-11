@@ -1,5 +1,5 @@
-  <nav  class="desktop">
-              <ul>
+ 
+              <ul id="nav">
 <?php
 
   $rs = $db->query("SELECT* FROM T_Menu where parent_id = 0");
@@ -53,8 +53,8 @@
                   }
  
 ?>
-                  <li> <a href="/?lang=chi">中文</a>|<a href="/?lang=eng">Eng</a></li>
+                 
     </ul>
             
-          </nav>
+        
                  

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"T_Category manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_category","eng_category"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_category","eng_category"],"actived":["chi_category","eng_category"],"atrr":{"id":{"alias":"id"}}},"ids":["eng_category","chi_category"]}

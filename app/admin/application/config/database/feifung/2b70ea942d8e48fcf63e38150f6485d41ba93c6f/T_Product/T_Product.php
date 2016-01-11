@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"T_Product manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_product","chi_desc","chi_attribute","image","eng_product","eng_desc","eng_attribute","cid","isShown"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_product","chi_desc","chi_attribute","image","eng_product","eng_desc","eng_attribute","cid","isShown"],"actived":["image","eng_product","cid","isShown"],"atrr":{"id":{"alias":"id"}}},"ids":["eng_product","chi_product","eng_desc","chi_desc","eng_attribute","chi_attribute","cid","isShown","image"]}

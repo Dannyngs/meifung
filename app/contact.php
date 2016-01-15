@@ -72,7 +72,7 @@ require_once 'init.php';
        </ul>
        
        <ul class="email-info">
-         <li><?php echo $system['email'];?></li>
+         <li><a href="mailto:info@meifung.hk"><?php echo $system['email'];?></a></li>
        </ul>
        
        <h3 class="title top-2 bottom-2">Social Contact</h3>

@@ -750,6 +750,13 @@ footer .widget.most-posts ul.posts li {
 
 .blog-3 .item .contain .data{
 	padding:8px;
+    color:#171818;
+    font-size:14px
+}
+.blog-3 .item .contain .data .title{
+    font-size: 18px;
+    font-weight:bold;
+    
 }
 
 .blog-3 .item .image-post {
@@ -769,6 +776,7 @@ footer .widget.most-posts ul.posts li {
 	padding: 5px 10px 0px 0;
 	margin:3px 2px 3px 0;
 	background:none !important;
+     color:#171818;
 }
 
 .blog-3 #options, .one-page #options {

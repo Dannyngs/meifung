@@ -19,7 +19,7 @@ require_once 'init.php';
      <div class="flex-container">
        <div class="flexslider loading">
         <ul class="slides">
-          <li style="background:url(/_/images/banner11.jpg) no-repeat;background-position:50% 0;background-size:cover">
+          <li style="background:url(/_/images/banner11.jpg) no-repeat;background-position:50% 0;">
           
            <div class="container">
            <div class="sixteen columns contain">
@@ -29,7 +29,7 @@ require_once 'init.php';
           
           </li><!-- End item -->
           
-          <li style="background:url(/_/images/banner22.jpg) no-repeat;background-position:50% 0;background-size:cover">
+          <li style="background:url(/_/images/banner22.jpg) no-repeat;background-position:50% 0;">
           
            <div class="container">
            <div class="sixteen columns contain">
@@ -40,7 +40,7 @@ require_once 'init.php';
           </li><!-- End item -->
            
          
-          <li style="background:url(/_/images/banner33.jpg) no-repeat;background-position:50% 0;background-size:cover">
+          <li style="background:url(/_/images/banner33.jpg) no-repeat;background-position:50% 0;">
           
            <div class="container">
            <div class="sixteen columns contain">
@@ -84,7 +84,7 @@ require_once 'init.php';
         
          <h3 class="title bottom-2">Our Works</h3> 
    
-    <div id="contain"> 
+    <div > 
       
        <?php  foreach($products as $pro)          
 {?>     

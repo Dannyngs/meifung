@@ -9,7 +9,7 @@ require_once 'init.php';
      <div class="container clearfix">
        
        <div class="sixteen columns"> 
-         <h1>Contact us</h1>
+         <h1><?php echo $lang['contact'];?></h1>
        </div>
        
      </div><!-- End Container -->
@@ -22,7 +22,7 @@ require_once 'init.php';
    <div class="container main-content clearfix">
    
      <div class="eleven columns top-3 bottom-2">
-       <h3 class="title bottom-2">Get in touch</h3>
+       <h3 class="title bottom-2"><?php echo $lang['contact'];?></h3>
        
        <div id="note"></div><!-- End notification -->
       
@@ -31,28 +31,28 @@ require_once 'init.php';
        <form id="ajax-contact-form" action="">
       
       <div class="form-box">
-        <label>Name <small>*</small></label>
+        <label><?php echo $lang['name'];?> <small>*</small></label>
         <input type="text" name="name" class="text">
       </div><!-- End Box -->
       
       <div class="form-box">
-        <label>Email <small>*</small></label>
+        <label><?php echo $lang['email'];?> <small>*</small></label>
         <input type="text" name="email" class="text">
       </div><!-- End Box -->
       
       <div class="form-box last">
-        <label>Subject </label>
+        <label><?php echo $lang['subject'];?> </label>
         <input type="text" name="subject" class="text">
       </div><!-- End Box -->
       
       <div class="form-box big">
-        <label>Message <small>*</small></label>
+        <label><?php echo $lang['msg'];?> <small>*</small></label>
         <textarea name="message"></textarea>
       </div><!-- End Box -->
       
       <div class="clearfix"></div>
       
-      <input type="submit" value="Send Message" class="button medium color" />
+      <input type="submit" value="<?php echo $lang['submit'];?>" class="button medium color" />
       
       </form>
       
@@ -61,7 +61,7 @@ require_once 'init.php';
      </div>
       
      <div class="five columns top-3 bottom-2">
-       <h3 class="title bottom-2">Contact Info</h3>
+       <h3 class="title bottom-2"><?php echo $lang['info'];?></h3>
        
        <ul class="address-info">
          <li><?php echo $system[$current_lang.'_address'];?></li>
@@ -75,7 +75,7 @@ require_once 'init.php';
          <li><a href="mailto:info@meifung.hk"><?php echo $system['email'];?></a></li>
        </ul>
        
-       <h3 class="title top-2 bottom-2">Social Contact</h3>
+       <h3 class="title top-2 bottom-2"><?php echo $lang['social'];?></h3>
        <div class="share-social">
       <a href="#" target="_blank"><i class="social_icon-facebook s-18 white"></i></a>
     

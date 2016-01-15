@@ -82,7 +82,7 @@ require_once 'init.php';
  <div class="sixteen columns"><hr class="line bottom-3"></div>
      <div class="gallery bottom-3 top-1">
         
-         <h3 class="title bottom-2">Our Works</h3> 
+         <h3 class="title bottom-2"><?php echo $lang['our_work'];?></h3> 
    
     <div > 
       

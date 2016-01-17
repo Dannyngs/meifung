@@ -1,2 +1,2 @@
 <?php exit; ?>
-{"field":"isShown","label":"isShown","type":"text","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":""}
+{"field":"isShown","label":"Is shown on home page","type":"radio","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","values":["1","0"],"options":["yes","no"],"list_choose":"default"}

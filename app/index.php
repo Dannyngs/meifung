@@ -74,8 +74,10 @@ require_once 'init.php';
    
      <div class="bottom-3 top-3">
        <h3 class="title bottom-2" ><?php echo $system[$current_lang.'_home_tit'];?></h3> 
-       <p >
-	   <?php echo $system[$current_lang.'_home_content'];?>
+       <p id="aboutp">
+	    <!-- <?php echo $system[$current_lang.'_home_content'];?>-->
+      MEI FUNG is a company that will use its unique creative skills in the development of the corporate and promotional gift, paper products, and apparel market in Hong Kong. In addition, it offers a wide range of stylish top quality imprinted related products, including without limitation gift item, paper products, t-shirt and sport wear in all kinds of material and fabric. The extensive vendor relationships allow MEI FUNG to offer products that are not available through other distributors
+      MEI FUNG is a company that will use its unique creative skills in the development of the corporate and promotional gift, paper products, and apparel market in Hong Kong. In addition, it offers a wide range of stylish top quality imprinted related products, including without limitation gift item, paper products, t-shirt and sport wear in all kinds of material and fabric. The extensive vendor relationships allow MEI FUNG to offer products that are not available through other distributors
        </p>
      </div><!-- End who we are -->
  

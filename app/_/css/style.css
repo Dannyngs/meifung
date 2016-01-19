@@ -2313,3 +2313,13 @@ header .search form {
 
 
 }
+
+
+.readmore-js-toggle, .readmore-js-section {
+  display: block;
+  width: 100%;
+}
+.readmore-js-section {
+  overflow: hidden;
+}
+.more1{color:#ccc;margin-top:5px;}

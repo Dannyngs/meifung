@@ -1,2 +1,2 @@
 <?php exit; ?>
-{"field":"cid","label":"cid","type":"text","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":""}
+{"field":"cid","label":"Category","type":"select","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","db_options":{"table":"T_Category","key":"id","value":"eng_category"},"list_choose":"database","multiple":""}

@@ -19,37 +19,21 @@ require_once 'init.php';
      <div class="flex-container">
        <div class="flexslider loading">
         <ul class="slides">
-          <li style="background:url(/_/images/banner11.jpg) no-repeat;background-position:50% 0;">
-          
-           <div class="container">
-           <div class="sixteen columns contain">
-          
-           </div>
-         </div><!-- End Container -->
+          <li>
+            <img style="max-width:100%" src="/_/images/banner11.jpg">
+         
           
           </li><!-- End item -->
           
-          <li style="background:url(/_/images/banner22.jpg) no-repeat;background-position:50% 0;">
-          
-           <div class="container">
-           <div class="sixteen columns contain">
-         
-           </div>
-         </div><!-- End Container -->
+          <li >
+          <img style="max-width:100%" src="/_/images/banner22.jpg">
           
           </li><!-- End item -->
            
          
-          <li style="background:url(/_/images/banner33.jpg) no-repeat;background-position:50% 0;">
-          
-           <div class="container">
-           <div class="sixteen columns contain">
-            
-            
-             
-           
-           </div>
-         </div><!-- End Container -->
+          <li >
+           <img style="max-width:100%" src="/_/images/banner33.jpg">
+        
           
           </li><!-- End item -->
          

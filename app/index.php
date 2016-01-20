@@ -21,8 +21,7 @@ require_once 'init.php';
         <ul class="slides">
           <li>
             <img style="max-width:100%" src="/_/images/banner11.jpg">
-         
-          
+        
           </li><!-- End item -->
           
           <li >
@@ -34,7 +33,6 @@ require_once 'init.php';
           <li >
            <img style="max-width:100%" src="/_/images/banner33.jpg">
         
-          
           </li><!-- End item -->
          
       

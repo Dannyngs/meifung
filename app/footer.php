@@ -20,7 +20,7 @@
   </div><!-- End wrap -->
  <!-- build:js(app) /_/js/main.js -->
   <script src="/_/js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
-  <script src="/_/bower_components/Readmore.js/readmore.min.js"></script>
+  <script src="/_/js/readmore.min.js"></script>
   <script src="/_/js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 
   <script src="/_/js/jquery-ui/jquery.ui.core.js"></script> <!-- jQuery Ui Core-->
   <script src="/_/js/jquery-ui/jquery.ui.widget.js"></script> <!-- jQuery Ui Widget -->

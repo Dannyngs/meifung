@@ -56,10 +56,10 @@ require_once 'init.php';
    
      <div class="bottom-3 top-3">
        <h3 class="title bottom-2" ><?php echo $system[$current_lang.'_home_tit'];?></h3> 
-       <p id="aboutp">
+       <div id="aboutp">
 	    <?php echo $system[$current_lang.'_home_content'];?>
       
-       </p>
+       </div>
      </div><!-- End who we are -->
  
  <div class="sixteen columns"><hr class="line bottom-3"></div>

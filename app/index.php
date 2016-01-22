@@ -20,18 +20,18 @@ require_once 'init.php';
        <div class="flexslider loading">
         <ul class="slides">
           <li>
-            <img style="max-width:100%" src="/_/images/banner11.jpg">
+              <a href="list.php?id=1"><img style="max-width:100%" src="/_/images/banner11.jpg"></a>
         
           </li><!-- End item -->
           
           <li >
-          <img style="max-width:100%" src="/_/images/banner22.jpg">
+              <a href="list.php?id=2"><img style="max-width:100%" src="/_/images/banner22.jpg"></a>
           
           </li><!-- End item -->
            
          
           <li >
-           <img style="max-width:100%" src="/_/images/banner33.jpg">
+              <a href="list.php?id=3"><img style="max-width:100%" src="/_/images/banner33.jpg"></a>
         
           </li><!-- End item -->
          

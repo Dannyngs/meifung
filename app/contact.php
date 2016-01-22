@@ -1,6 +1,6 @@
 <?php
 require_once 'init.php';
-
+$ranPic = rand(1, 3);
 ?>
 <?php require_once 'header.php' ?>
 
@@ -8,10 +8,12 @@ require_once 'init.php';
 <div class="page-title">
      <div class="container clearfix">
        
-       <div class="sixteen columns"> 
+       <div class="twelve columns"> 
          <h1><?php echo $lang['contact'];?></h1>
        </div>
-       
+       <div class="four columns" style="text-align:right"> 
+          <img src="_/images/tit<?php echo $ranPic;?>.png"/>
+       </div>
      </div><!-- End Container -->
    </div><!-- End Page title -->
    
@@ -28,31 +30,31 @@ require_once 'init.php';
       
       <div id="fields">
       
-       <form id="ajax-contact-form" action="">
+       <form id="ajax-contact-form" >
       
       <div class="form-box">
         <label><?php echo $lang['name'];?> <small>*</small></label>
-        <input type="text" name="name" class="text">
+        <input type="text" id="name" class="text">
       </div><!-- End Box -->
       
       <div class="form-box">
         <label><?php echo $lang['email'];?> <small>*</small></label>
-        <input type="text" name="email" class="text">
+        <input type="text" id="email" class="text">
       </div><!-- End Box -->
       
       <div class="form-box last">
         <label><?php echo $lang['subject'];?> </label>
-        <input type="text" name="subject" class="text">
+        <input type="text" id="subject" class="text">
       </div><!-- End Box -->
       
       <div class="form-box big">
         <label><?php echo $lang['msg'];?> <small>*</small></label>
-        <textarea name="message"></textarea>
+        <textarea id="msg"></textarea>
       </div><!-- End Box -->
       
       <div class="clearfix"></div>
       
-      <input type="submit" value="<?php echo $lang['submit'];?>" class="button medium color" />
+      <input type="submit" id="mysubmit" value="<?php echo $lang['submit'];?>" class="button medium color" />
       
       </form>
       

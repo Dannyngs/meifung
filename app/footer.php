@@ -40,6 +40,8 @@
   <script src="/_/js/fancybox/jquery.fancybox.js"></script> <!-- jQuery FancyBox -->
   <script src="/_/js/jquery.sticky.js"></script> <!-- jQuery Sticky -->
   <script src="/_/js/custom.js"></script> 
+  <script src="/_/js/form.js"></script> 
+
   
   
 

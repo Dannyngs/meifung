@@ -36,8 +36,12 @@ $ranPic = rand(1, 3);
     
     <div id="contain">
 	
-	<?php  foreach($products as $pro)          
-{?>     
+	<?php  
+        
+        foreach($products as $pro)          
+{
+        
+        ?>     
 	<div class="one-third column item  Web" data-categories="Web">
        <div class="contain"> 
         <div class="image-post"> 
@@ -63,7 +67,10 @@ $ranPic = rand(1, 3);
       
        </div><!-- End contain --> 
       </div>
-      <!-- ==================== End  ==================== -->
+      
+        
+        
+        <!-- ==================== End  ==================== -->
 		
 <?php
     }

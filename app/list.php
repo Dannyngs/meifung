@@ -1,10 +1,17 @@
 <?php
 require_once 'init.php';
-
-
-// Read pRODUCT
+//read product count
 $rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']);
+$totalCount =$rs->rowCount();
+$totalPage = intval($totalCount / $pageSize);
+if($totalCount % $pageSize) $totalPage++;
+// Read pRODUCT
+$pageNum =  isset($_GET['page'])?intval($_GET['page']):0;
+$rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']." limit ".($pageNum * $pageSize).",".$pageSize);
     $products = $rs->fetchAll();
+
+
+
 
 // Read pRODUCT
 $rs = $db->query("SELECT * FROM T_Category where id=".$_GET['id']);
@@ -65,6 +72,9 @@ $ranPic = rand(1, 3);
         </div><!-- End post-content -->
         </div><!-- End data -->
       
+           
+           
+           
        </div><!-- End contain --> 
       </div>
       
@@ -82,7 +92,25 @@ $ranPic = rand(1, 3);
     
     </div><!-- End contain-->
     
-    
+    <div class="pagination-contain top-3">
+     <div class="pagination">
+         <?php if($pageNum>0){?>
+      <a href="list.php?id=<?php echo $_GET['id'];?>&page=<?php echo $pageNum-1;?>" class="prev-button"><i class="icon-angle-left"></i></a>
+           <?php } ?>
+         
+         <?php   for($i=0;$i<$totalPage;$i++) { 
+         if($pageNum!=$i){
+         ?>         
+ 
+      <a href="list.php?id=<?php echo $_GET['id'];?>&page=<?php echo $i;?>"><?php echo $i+1;?></a>
+         <?php }} ?>
+         
+         
+           <?php if($pageNum<$totalPage-1){?>
+      <a href="list.php?id=<?php echo $_GET['id'];?>&page=<?php echo $pageNum+1;?>" class="next-button"><i class="icon-angle-right"></i></a>
+           <?php } ?>
+    </div>
+    </div>
    
     
 

@@ -8,7 +8,7 @@ Language: English
 $lang = array();
  
 $lang['our_work'] = 'Our Works';
-$lang['contact'] = 'Get in touch';
+$lang['contact'] = 'Contact Us';
 $lang['info'] = 'Contact Info';
 $lang['social'] = 'Social Contact';
 

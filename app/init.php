@@ -20,7 +20,8 @@
     $rs = $db->query("SELECT* FROM T_System");
     $system = $rs->fetch();
    
-   
+ $pageSize =6 ;
+  
  
  //# Multi-Language    
 session_start();

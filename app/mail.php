@@ -25,7 +25,7 @@ $msg.="<p>Message:".$_POST['msg']."</p>";
 
 
 
-if(smtp_mail("danny.ng198811@yahoo.com", "Application Form " ,$msg))
+if(smtp_mail("info@meifung.hk", "Application Form " ,$msg))
     echo "ok";
 else echo "not ok!";
 

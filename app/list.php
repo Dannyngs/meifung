@@ -41,7 +41,7 @@ $ranPic = rand(1, 3);
    
      <div class="blog-3 bottom-2 top-1">
     
-    <div id="contain">
+    <div id="contain" class="clearfix">
 	
 	<?php  
         

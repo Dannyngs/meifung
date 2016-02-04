@@ -32,7 +32,6 @@
   <script src="/_/js/tytabs.js"></script> <!-- jQuery Plugin tytabs  -->
   <script src="/_/js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
   <script src="/_/js/carousel.js"></script> <!-- jQuery Carousel  -->
-  <script src="/_/js/jquery.isotope.min.js"></script> <!-- Isotope Filtering  -->
   <script src="/_/js/twitter/jquery.tweet.js"></script> <!-- jQuery Tweets -->
   <script src="/_/js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
   <script src="/_/js/social-options.js"></script> <!-- social options , twitter, flickr.. -->

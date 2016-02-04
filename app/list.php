@@ -58,7 +58,7 @@ $ranPic = rand(1, 3);
             </a>
         </div><!-- End slider image-post -->
         
-        <div class="data">
+        <div class="data" height="600">
         <p class="title"><?php echo $pro[$current_lang.'_product'];?></p>
         <div class="post-meta">
         <div class="meta"><?php echo $pro[$current_lang.'_desc'];?></div><!-- Date -->

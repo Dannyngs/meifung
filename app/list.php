@@ -31,11 +31,11 @@ switch($_GET['id'])
 <div class="page-title">
      <div class="container clearfix">
        
-       <div class="twelve columns"> 
+       <div class="nine columns"> 
          <h1><?php echo $category[$current_lang.'_category'];?></h1>
        </div>
          
-          <div class="four columns" style="text-align:right"> 
+          <div class="seven columns" style="text-align:right"> 
           <img src="_/images/tit<?php echo $ranPic;?>.png"/>
        </div>
        

@@ -8,11 +8,11 @@ $ranPic = rand(1, 3);
 <div class="page-title">
      <div class="container clearfix">
        
-       <div class="twelve columns"> 
+       <div class="nine columns"> 
          <h1><?php echo $lang['contact'];?></h1>
        </div>
-       <div class="four columns" style="text-align:right"> 
-          <img src="_/images/tit<?php echo $ranPic;?>.png"/>
+       <div class="seven columns" style="text-align:right"> 
+          <img src="_/images/tit4.png"/>
        </div>
      </div><!-- End Container -->
    </div><!-- End Page title -->

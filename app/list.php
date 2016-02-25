@@ -7,7 +7,7 @@ $totalPage = intval($totalCount / $pageSize);
 if($totalCount % $pageSize) $totalPage++;
 // Read pRODUCT
 $pageNum =  isset($_GET['page'])?intval($_GET['page']):0;
-$rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']." limit ".($pageNum * $pageSize).",".$pageSize);
+$rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']."  ORDER BY sort limit ".($pageNum * $pageSize).",".$pageSize." ");
     $products = $rs->fetchAll();
 
 
@@ -17,8 +17,14 @@ $rs = $db->query("SELECT * FROM T_Product where cid=".$_GET['id']." limit ".($pa
 $rs = $db->query("SELECT * FROM T_Category where id=".$_GET['id']);
     $category = $rs->fetch();
 
-
-$ranPic = rand(1, 3);
+ 
+switch($_GET['id'])
+{
+    case 1:$ranPic=1;break;
+    case 2:$ranPic=2;break;
+    case 3:$ranPic=3;break;
+        
+}
 ?>
 <?php require_once 'header.php' ?>
 

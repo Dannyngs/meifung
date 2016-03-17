@@ -41,7 +41,7 @@
     <!-- IE Fix for HTML5 Tags -->
     
     <!--[if lt IE 9]>
-    <script src="js/html5.js"></script>
+    <script src="/_/js/html5.js"></script>
     <![endif]-->
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -57,7 +57,7 @@
        <div class="container clearfix">
         <div class="slidedown">
         
-         <div class="fourteen columns">
+         <div class="thirteen columns">
            <div class="phone-mail">
              <a><i class="icon-phone"></i> Phone : <?php echo $system['phone'];?></a>
              <a href="mailto:info@meifung.hk"><i class="icon-envelope-alt"></i> Mail : <?php echo $system['email'];?></a>
@@ -66,10 +66,9 @@
             
          </div>
             
-            <div class="two columns">
-           <div class="phone-mail" style="padding-top:8px;">
-            
-                 <a  href="index.php?lang=chi">中文</a><a   href="index.php?lang=eng">English </a>
+            <div class="three columns">
+           <div class="phone-mail" style="padding-top:8px;text-align:right;">
+              <a href="index.php?lang=chi">中文</a><a href="index.php?lang=eng">English </a>
            </div><!-- End phone-mail -->
             
          </div>

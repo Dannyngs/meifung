@@ -1093,6 +1093,7 @@ body.under-construction footer .social {
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
+.pich{height:225px;}
 	
 .main-header .two-thirds.column {
 	float:right;
@@ -1238,7 +1239,7 @@ header.style-3.style-5 .down-header {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+.pich{height:192px;}	
 #footer.thumbs li {
 	width: 47%;
 	margin: 3px 6px 3px 0;

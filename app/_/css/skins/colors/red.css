@@ -33,6 +33,7 @@
 
 .img-caption, .fancybox-title-float-wrap .child {
 	background:rgba(231,64,47,.88);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8e7402f,endColorstr=#c8e7402f);
 }
 
 /* Colors 

@@ -55,16 +55,16 @@ switch($_GET['id'])
 {
         
         ?>     
-	<div class="one-third column item  Web" data-categories="Web">
+	<div class="one-third column item  Web">
        <div class="contain"> 
         <div class="image-post"> 
             <a class="fancybox" href="<?php echo $imgurl.$pro['image'];?>" data-fancybox-group="gallery-3" 
         title="<?php echo $pro[$current_lang.'_product'];?>">
-              <img width="800" height="600" src="<?php echo $imgurl.$pro['image'];?>">
+              <img class="pich" src="<?php echo $imgurl.$pro['image'];?>">
             </a>
         </div><!-- End slider image-post -->
         
-        <div class="data" height="600">
+        <div class="data">
         <p class="title"><?php echo $pro[$current_lang.'_product'];?></p>
         <div class="post-meta">
         <div class="meta"><?php echo $pro[$current_lang.'_desc'];?></div><!-- Date -->
